@@ -5,6 +5,4 @@ author: Arr0w
 commands:
   chatreplace:
     usage: /<command>
-permission:
-  chatreplace.perm:
-    default: op
+

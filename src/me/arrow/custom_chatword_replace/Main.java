@@ -36,7 +36,7 @@ public class Main extends JavaPlugin implements Listener, TabCompleter {
         for(int i=1;i<=amount;i++){
             String word = this.getConfig().getString("chatreplace.word"+i);
             if (msg != null && msg.equalsIgnoreCase(word)){
-                String formatted = (ChatColor.DARK_AQUA+player.getDisplayName()+ " "+this.getConfig().getString("chatreplace.replace"+i));
+                String formatted = (ChatColor.AQUA+player.getDisplayName()+ " "+this.getConfig().getString("chatreplace.replace"+i));
                 Bukkit.broadcastMessage(formatted);
 
             }
