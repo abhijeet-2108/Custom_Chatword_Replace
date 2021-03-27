@@ -1,0 +1,10 @@
+name: Custom_ChatWord_Replace
+main: me.arrow.custom_chatword_replace.Main
+version: 1.1
+author: Arr0w
+commands:
+  chatreplace:
+    usage: /<command>
+permission:
+  chatreplace.perm:
+    default: op
