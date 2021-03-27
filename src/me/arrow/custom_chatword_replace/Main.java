@@ -38,10 +38,10 @@ public class Main extends JavaPlugin implements Listener, TabCompleter {
             if (msg != null && msg.equalsIgnoreCase(word)){
                 String formatted = (ChatColor.AQUA+player.getDisplayName()+ " "+this.getConfig().getString("chatreplace.replace"+i));
                 Bukkit.broadcastMessage(formatted);
-
+                e.getRecipients().clear();
             }
         }
-        e.getRecipients().clear();
+
 
     }
 }
